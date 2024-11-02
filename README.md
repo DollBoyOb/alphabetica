@@ -1,3 +1,2 @@
 # Alphabetica
-Alphabetica - Deque-based programming language
-(thats all)
+Alphabetica - Deque-based, turing complete programming language
