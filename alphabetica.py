@@ -80,8 +80,7 @@ while p!=len(f[0]):
         case "h": ifbuff = numon_if(vl)
         case "e": break
         case "m": 
-            if vl[6]=="d": 
-                mem[int(vl[7], base=36)] = eval(numon_math(vl))
+            if vl[6]=="d": mem[int(vl[7], base=36)] = eval(numon_math(vl))
             if vl[6]=="v": heap[vl[7]] = eval(numon_math(vl))
         case "j": p = numon(vl)-1
         
